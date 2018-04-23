@@ -4,7 +4,7 @@ import sys
 
 
 def JpInit(self):
-    self.charcode("CP932")
+    self.charcode("JIS")
     self._raw(b'\x1c\x43\x01')
 
 
